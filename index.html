@@ -8,7 +8,6 @@
       margin: 0;
       padding: 0;
       font-family:Raleway;
-      box-sizing: border-box;
     }
 	  
      table {
@@ -67,11 +66,6 @@
       padding:0px 0px 0px 30px;
     }
     
-    #header_wrap {
-      padding:0px;
-      margin:0px;
-    }
-    
     #header_wrap2 {
       padding:30px 0px 0px;
       margin:0px;
@@ -122,16 +116,16 @@
     }
   
     .indice {
-	background:#54ABFA;
-	margin:50px 10px 0 10px;
-	width:35%;
-	height:100%;
-	padding:20px 60px 20px 20px;
-  	border-radius:3px;
-	position:sticky;
-	top:55px;
-	z-index:2;
-	display:block;
+      background:#54ABFA;
+      margin:50px 10px 0 10px;
+      width:35%;
+      height:100%;
+      padding:20px 60px 20px 20px;
+        border-radius:3px;
+      position:sticky;
+      top:55px;
+      z-index:2;
+      display:block;
     }
 	  
     a.contenido{
@@ -180,6 +174,42 @@
       align-items: center;
       justify-content: flex-end;
     }
+
+    .container__menu{
+    width: 100%;
+    height: 70px;
+    background: #023877;
+    padding: 0px 20px;
+    }
+
+    nav > ul > li:first-child:hover > a{
+    background-image: url(../img/home.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    } 
+
+    #check__menu{
+    display: none;
+    }
+
+    #label__check{
+    width: 26px;
+    height: 100%;
+    display: none;
+    }
+    
+    @media screen and (max-width: 720px){
+      #check__menu:checked ~ nav > ul{
+        height: 300px;
+        visibility: visible;
+        opacity: 1;
+      }
+
+      #label__check{
+        display: block;
+      }
+    }
   </style>  
 
 </head>
@@ -189,8 +219,41 @@
       Asteroides Cercanos a la Tierra (NEAs)
     </h2>
     <img src="LOGOINAOE.png" alt="INAOE" class="logoimg">
+
+    <div class="container__menu">
+
+      <div class="menu">
+          <input type="checkbox" id="check__menu">
+          <label for="check__menu" id="label__check">
+              <i class="fas fa-bars icon__menu"></i>
+          </label>
+          <nav>
+              <ul>
+                  <li><a href="#" id="selected"></a></li>
+                  <li><a href="">Actividades</a>
+                      <ul>
+                          <li><a href="https://asteroidesinaoe.github.io/Actividades/">Actividades</a></li>
+                          <li><a href="https://asteroidesinaoe.github.io/Actividad-Curva-de-Luz/">Curva de Luz</a></li>
+                          <li><a href="https://asteroidesinaoe.github.io/Actividad-rbitas-de-Asteroides/">Órbitas</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="https://asteroidesinaoe.github.io/Aprender-m-s/">Aprender más</a>
+                      <ul>
+                          <li><a href="https://asteroidesinaoe.github.io/Rayos-cosmicos/">Rayos cósmicos</a></li>
+                          <li><a href="https://asteroidesinaoe.github.io/CCD/">CCD</a></li>
+                          <li><a href="https://asteroidesinaoe.github.io/MPO-Canopus/">MPO Canopus</a></li>
+                          <li><a href="https://asteroidesinaoe.github.io/Fourier/">Análisis de Fourier</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="#">Contactos</a></li>
+              </ul>
+          </nav>
+      </div>
+
+    </div>
   </header>
 
+<!--
   <hr color="#02284A" size=3>
 <div class="container1">
   <div id="header">
@@ -214,7 +277,7 @@
       <li><a href="https://asteroidesinaoe.github.io/Contacto/">Contacto</a></li>
     </ul>
   </div>
-
+-->
 
 <div class="container2">
 <div class="indice">
