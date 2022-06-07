@@ -62,12 +62,12 @@
       width: 100%;
     }
 
-    ul.nav,
-    .nav li {
+    ul nav,
+     nav li {
       list-style: none;
     }
 
-    .nav li a {
+    nav li a {
       background-color: #02284A;
       color: white;
       text-decoration: none;
@@ -75,17 +75,17 @@
       display: block;
     }
 
-    .nav li a:hover {
+    nav li a:hover {
       background-color: #0099FF;
       transition: 0.5s;
       transform: scale(1.2);
     }
 
-    .nav>li {
+    nav > li {
       float: left;
     }
 
-    .nav li ul {
+    nav li ul {
       display: none;
       position: absolute;
       min-width: 140px;
@@ -93,12 +93,12 @@
       margin: 5px 0 0 0;
     }
 
-    .nav li ul li a {
+    nav li ul li a {
       background-color: #00080f;
       font-size: 12px;
     }
 
-    .nav li:hover>ul {
+    nav li:hover > ul {
       display: block;
     }
 
