@@ -1,6 +1,7 @@
 * {  margin: 0;
       padding: 0;
       font-family: 'Raleway';
+      text-decoration: none;
     }
 
     body {
@@ -302,3 +303,8 @@
       align-items: flex-end;
       margin: 0px;
     }
+
+    .titulo{
+      align-items: center;
+      font-size:27px
+  }
