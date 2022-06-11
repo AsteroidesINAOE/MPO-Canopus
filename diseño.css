@@ -44,18 +44,6 @@
       top: 0;
     }
 
-    #header {
-      padding: 0px 0px 30px 0px;
-      height: 9px;
-      width: 100%;
-      font-family: Raleway;
-      font-size: 12px;
-      position: sticky;
-      top: 0px;
-      background: #02284A;
-      z-index: 3;
-    }
-
     header {
       display: flex;
       justify-content: center;
