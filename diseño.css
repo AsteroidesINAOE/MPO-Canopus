@@ -14,26 +14,32 @@
       width: 100%;
     }
 
-    /* Título de la página */
-    .titulo {
-      display: flex;
-      justify-content: center;
-      background: black;
-      color: #066DCC;
-      font-weight: bold;
-      padding: 33px;
-      font-size: 60px
-    }
-    
-    
-    
-    /* Logo INAOE */
-    .logoimg {
-      margin: auto;
-      display: flex;
-      align-items: center;
-      height: 120px;
-    }
+    /*HEADER SUPERIOR*/
+.parte_superior{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+
+/* titulo de la pagina*/
+.titulo{
+    display: flex;
+    justify-content: center;
+    background:black;
+    color:#066DCC; 
+    font-weight:bold; 
+    padding:33px; 
+    font-size:52px
+}
+
+/* Logo INAOE */
+.logoimg{
+  display: flex;
+    height: 120px;
+    align-items: center;
+}
 
 
 
