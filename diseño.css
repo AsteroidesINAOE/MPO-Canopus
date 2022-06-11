@@ -29,9 +29,10 @@
     
     /* Logo INAOE */
     .logoimg {
+      margin: auto;
       display: flex;
-      height: 120px;
       align-items: center;
+      height: 120px;
     }
 
 
