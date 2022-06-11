@@ -1,6 +1,6 @@
 * {  margin: 0;
       padding: 0;
-      font-family: Raleway;
+      font-family: 'Raleway';
     }
 
     body {
@@ -16,7 +16,7 @@
       color: #066DCC;
       font-weight: bold;
       padding: 33px;
-      font-size: 60px
+      font-size: 55px
     }
 
 
