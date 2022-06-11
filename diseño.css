@@ -5,10 +5,10 @@
       text-decoration: none;
       box-sizing: border-box;
     }
-    body {
+  body {
       background-color: black;
     }
-    header {
+  header {
       display: flex;
       justify-content: center;
       width: 100%;
@@ -72,6 +72,8 @@ nav  ul  li{
     position: relative;
     }
 
+    
+/*ICONO HOME*/
 nav > ul > li:first-child > a{
     background-image: url(../img/home.png);
     background-size: 24px;
@@ -80,10 +82,9 @@ nav > ul > li:first-child > a{
     padding: 20px 40px;
     }
 
-    
 nav > ul > li:first-child:hover > a{
   background-image: url(../img/home.png);
-  background-size: 24px;
+  background-size: 22px;
   background-repeat: no-repeat;
   background-position: center center;
 }
