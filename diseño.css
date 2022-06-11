@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 * {  margin: 0;
       padding: 0;
       font-family: 'Raleway';
       text-decoration: none;
+      box-sizing: border-box;
     }
 
     body {
@@ -289,7 +292,7 @@
       cursor: pointer;
     }
 
-    @media only screen and (max-width: 720px){
+    @media screen and (max-width: 720px){
       .modal-content {
         width: 100%;
       }
