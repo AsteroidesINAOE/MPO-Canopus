@@ -259,7 +259,11 @@ nav ul li ul li a:hover{
       font-size: 20px;
     }
 
-
+    /* Videos*/
+    .vids{
+      width: 780px;
+       height: 500px;
+    }
 
     /* Tablas */
     table {
@@ -425,10 +429,17 @@ nav ul li ul li a:hover{
       visibility: none;
     }
 
+    /* Videos*/
+    .vids{
+      width: 200px;
+       height: 125px;
+    }
+
+
     .modal-content {
       width: 100%;
     }
-    }
+  }
 
     /* Pie de página */
     #header_wrap2 {
