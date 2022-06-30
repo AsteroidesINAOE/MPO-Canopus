@@ -258,10 +258,6 @@ h4 {
   font-size: 20px;
 }
 
-.imagen{
-  width: 60%;
-}
-
 /*Ajustes tamaño de pantalla*/   
 @media screen and (max-width: 720px){
     .parte_superior{
