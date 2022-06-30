@@ -220,6 +220,7 @@ a.contenido {
   border-radius: 1rem;
   padding: 0 20px 0 20px;
   box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
+  width: 80%;
 }
 
 img {
@@ -427,7 +428,10 @@ label {
     .indice {
       display:none;
     }
-      
+    
+    .texto{
+      width: 100%;
+    }
     }
 
 @media screen and (max-width: 400px){
