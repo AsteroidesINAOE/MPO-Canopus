@@ -263,7 +263,7 @@ h4 {
   height: auto;
 }
 /*Ajustes tamaño de pantalla*/   
-@media screen and (max-width: 720px){
+@media screen and (max-width: 900px){
     .parte_superior{
         padding: 10px;
     }
